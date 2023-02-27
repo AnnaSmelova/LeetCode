@@ -12,3 +12,4 @@ class Solution:
                 stack.append(s[end])
                 end += 1
         return max(max_len, len(stack))
+        
