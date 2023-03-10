@@ -12,8 +12,7 @@ class Solution:
             head = head.next
         
     def getRandom(self) -> int:
-        i = int(random.random() * len(self.values))
-        return self.values[i]
+        return random.choice(self.values)
         
 
 
